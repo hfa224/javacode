@@ -41,7 +41,9 @@ public class App {
  
         System.out.println("Server started");
  
-        runGetRequest();
+        //for (int i=1; i<10; i++) {
+            runGetRequest();
+        //}
         //runDatabaseQuery();
     }
  
@@ -52,7 +54,7 @@ public class App {
     private static void runGetRequest() {
  
     	// sample URL
-        String url = "http://129.157.179.180:3000/shield/33/45/pink/hfa224";
+        String url = "http://129.157.179.180:3000/shield/33/45/pink/javacode";
         CloseableHttpResponse response = null;
  
         try {
