@@ -1,4 +1,4 @@
-/* Copyright © 2016 Oracle and/or its affiliates. All rights reserved. */
+/* Copyright ï¿½ 2016 Oracle and/or its affiliates. All rights reserved. */
 package com.example.rest;
  
 import java.util.Optional;
@@ -15,6 +15,7 @@ import org.apache.http.util.EntityUtils;
  
 @SpringBootApplication
 public class App {
+     // My microservice!
  
     // Get PORT and HOST from Environment or set default
     public static final Optional<String> host;
