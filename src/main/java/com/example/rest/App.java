@@ -47,11 +47,12 @@ public class App {
  
     /**
      * Performs a simple GET request and prints the result to the log.
+     * Trigger another build
      */
     private static void runGetRequest() {
  
     	// sample URL
-        String url = "http://129.157.179.180:3000/shield/33/45/pink/javacode";
+        String url = "http://129.157.179.180:3000/shield/33/45/pink/hfa224";
         CloseableHttpResponse response = null;
  
         try {
